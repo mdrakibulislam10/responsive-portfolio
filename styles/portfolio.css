@@ -260,7 +260,13 @@ textarea {
         width: 100%;
     }
 
-    nav ul {
+    nav {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* nav ul {
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
@@ -269,12 +275,15 @@ textarea {
 
     nav li {
         margin-left: 0;
-    }
+    } */
 
     nav .btn-primary {
         /* font-size: 16px; */
         padding: 15px 0;
         width: 120px;
+        background-color: transparent;
+        color: orangered;
+        border-left: 2px solid salmon;
     }
 
     .about,
